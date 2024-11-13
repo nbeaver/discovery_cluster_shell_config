@@ -7,7 +7,11 @@ fi
 
 # User specific environment and startup programs
 
+# Path additions, lower precedence.
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+# Path additions, higher precedence.
+PATH="/work/sglabfiles/software/mumax:$PATH"
 
 export PATH
 
