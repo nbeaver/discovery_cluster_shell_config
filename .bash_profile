@@ -9,9 +9,9 @@ fi
 
 # Path additions, lower precedence.
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
-PATH=$PATH:$HOME/.local/bin:$HOME/bin
 # Path additions, higher precedence.
 PATH="/work/sglabfiles/software/mumax:$PATH"
+PATH="$HOME/local/renameutils-0.12.0/src/:$PATH"
 
 export PATH
 
