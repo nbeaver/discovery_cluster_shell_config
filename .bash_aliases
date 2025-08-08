@@ -1,1 +1,1 @@
-alias sq='squeue'
+

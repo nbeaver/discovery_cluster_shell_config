@@ -12,3 +12,6 @@ fi
 
 source "$HOME/git/github.com/nbeaver/bashrc-public/bashrc-public.sh"
 module load ncdu/1.17
+
+alias sq='squeue'
+alias locate='locate --database=$HOME/.locate.db'
